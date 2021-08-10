@@ -196,16 +196,140 @@ ul.r-nav {
     flex-wrap:wrap;
 }
 
-input-buttons {
+.input-buttons {
     display: flex;
     flex: 0 0 auto;
     margin-top: -5px;
-    align-items: stretch;
+    align-items: center;
     flex-direction: row;
 
+}
+
+.input-buttons button {
+    height:100%;
 }
 
 .input-search {
     padding: 5px 4px 0 16px;
     padding-left: 14px;
 }
+
+.close-button {
+    margin-right: 12px;
+    color: #70757a;
+    vertical-align: middle;
+}
+
+.v-line {
+    border-left: 1px solid #dfe1e5;
+    height: 65%;
+}
+
+.nav-row {
+    color: #70757a;
+    font-size: 14px;
+    font-family: Google Sans,arial,sans-serif;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 30px;
+    position: relative;
+    z-index: 126;
+}
+
+.nav-links {
+    display:flex;
+    flex-direction:row;
+    height:-1px;
+}
+
+.link-list {
+    display:flex;
+    float:left;
+    align-items:baseline;
+    min-width:832px;
+    white-space:nowrap;
+}
+
+.link-items {
+    display:flex;
+    margin-left:169px;
+}
+
+.link-item {
+    height: 16px;
+    line-height: 16px;
+    margin: 11px 1px 0;
+    display: inline-block;
+    color: #5f6368;
+    text-decoration: none;
+    display: inline-block;
+    padding: 17px 12px 11px 10px;
+    /* padding: 0 12px;
+    padding: 8px 16px 8px 16px;
+    padding: 17px 12px 11px 10px;*/
+}
+
+.link-item a {
+    color: #5f6368;
+}
+
+.matcon {
+    font-size:14px !important;
+}
+
+.result-stat {
+    margin-left:180px;
+    height:40px;
+}
+
+.result-numbers {
+    display: flex;
+    top: 0;
+    -webkit-transition: all 220ms ease-in-out;
+    color: #70757a;
+    justify-content: space-between;
+    min-width: 652px;
+    line-height: 43px;
+}
+
+.result-code {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Google Sans,arial,sans-serif;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 8px;
+}
+
+/* .nav-links {
+    background: #fff;
+    height: 58px;
+    padding: 0;
+    position: relative;
+    z-index: 126;
+    white-space: nowrap;
+}
+
+.link-list {
+    position: relative;
+    white-space: nowrap;
+    align-items: baseline;
+    display: flex;
+    -ms-flex-pack: justify;
+    float: left;
+    justify-content: space-between;
+    min-width: 832px;
+}
+
+.link-items {
+    display: inline;
+    margin-left: 169px;
+}
+
+.link-list {
+    margin-left:169px;
+}
+
+.link-list li {
+    display:inline-block
+} */
