@@ -301,6 +301,46 @@ ul.r-nav {
     padding-right: 8px;
 }
 
+.result-column {
+    clear: both;
+    position: relative;
+    margin-left: 180px;
+    width: 652px;
+}
+
+.result-items {
+    height:226px;
+    transition: height 300ms ease-in-out 0s;
+}
+
+.result-link a {
+    color:#70757A;
+}
+
+.result-header {
+    font-weight: normal;
+    font-size: small;
+    line-height: 1.58;
+}
+
+.result-title h2 {
+    font-size: 20px;
+    line-height: 1.3;
+}
+.recommend-result {
+    padding: 20px;
+    border:1px solid #DADCE0;
+    border-radius: 6px;
+    margin-top:15px;
+}
+.recommend-content {
+    display:flex;
+}
+
+.recommend-result li {
+    padding-top:10px;
+    padding-right:10px
+}
 /* .nav-links {
     background: #fff;
     height: 58px;
